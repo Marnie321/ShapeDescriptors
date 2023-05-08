@@ -6,7 +6,7 @@ from skimage import draw
 
 class CurvatureEstimator(Layer):
     """
-    Estimator of the curvature based on the ratio of the area of a disk inside 
+    Estimator of the curvature based on the ratio of the area of a disk inside
     the region and  the total area.
 
     Based on the paper
